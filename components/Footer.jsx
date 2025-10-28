@@ -10,19 +10,19 @@ export default function Footer() {
           <div className="flex-1 flex justify-start">
             <a
               href="mailto:jeremy@shoprefit.com"
-              className="text-lg hover:text-primary transition-colors"
+              className="text-lg px-6 py-3 border border-gray-800 hover:border-primary hover:text-primary transition-all rounded-lg"
             >
               jeremy@shoprefit.com
             </a>
           </div>
 
           {/* Social Links */}
-          <div className="flex-1 flex justify-center gap-6 text-gray-400">
+          <div className="flex-1 flex justify-center gap-4 text-gray-400">
             <a
               href="https://github.com/jbrace02"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="p-3 border border-gray-800 hover:border-primary hover:text-primary transition-all rounded-lg"
               aria-label="GitHub"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -33,7 +33,7 @@ export default function Footer() {
               href="https://x.com/JeremyBrace"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="p-3 border border-gray-800 hover:border-primary hover:text-primary transition-all rounded-lg"
               aria-label="X (Twitter)"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -49,7 +49,7 @@ export default function Footer() {
               download="Brace_Jeremy_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-lg hover:text-primary transition-colors"
+              className="text-lg px-6 py-3 border border-gray-800 hover:border-primary hover:text-primary transition-all rounded-lg"
             >
               Resume
             </a>
