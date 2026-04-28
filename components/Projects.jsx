@@ -33,24 +33,24 @@ export default function Projects() {
       live: 'https://www.shoprefit.com',
       status: 'Live in Production',
     },
+    {
+      title: 'InferPrices',
+      techStack: ['Next.js 15', 'React 19', 'TypeScript', 'Supabase', 'OpenRouter', 'LiteLLM'],
+      description:
+        'CoinGecko for AI inference. A live comparison table normalizing 400+ models across 60+ providers to dollars per million tokens. Merges OpenRouter and LiteLLM pricing, refreshes every 5 minutes via ISR, and ships per-model SEO pages plus a public API for programmatic queries.',
+      achievements: [
+        '400+ models and 60+ providers tracked, normalized to $/M tokens',
+        'Blended pricing (3:1 input/output ratio) for fair cost comparison',
+        'Daily historical price collection via Supabase + Vercel Cron',
+        'Public REST endpoint and SEO-friendly per-model pages',
+      ],
+      github: null,
+      live: 'https://infer-ten.vercel.app',
+      status: 'Live in Production',
+    },
   ]
 
   const personalProjects = [
-    {
-      title: 'On-Chain Casino Game',
-      techStack: ['Solana', 'Rust', 'IQ Tech', 'React', 'Multi-Sig'],
-      description:
-        'Fully on-chain heads-or-tails betting game built with IQ Tech. Handles wallet connection, bet placement, automated payouts, and secure vault management with multi-signature custody. All game logic and financial transactions execute on-chain for transparency and fairness.',
-      achievements: [
-        'Multi-sig vault architecture for secure fund custody',
-        'On-chain randomness and provably fair game logic',
-        'Automated payout system handling real SOL transactions',
-        'Complete financial engineering (betting, odds, treasury management)',
-      ],
-      github: null,
-      live: null,
-      status: 'Devnet (Personal Project)',
-    },
     {
       title: 'Bitcoin Ordinals Pioneer',
       techStack: ['Bitcoin', 'Ordinals', 'Digital Artifacts'],
@@ -95,6 +95,21 @@ export default function Projects() {
       github: 'https://github.com/v3ra-ai/v3rasocial',
       live: null,
       status: 'Solana Mainnet',
+    },
+    {
+      title: 'Orioles Moneyball',
+      techStack: ['Next.js 15', 'React', 'Tailwind CSS', 'Papa Parse'],
+      description:
+        "Data-driven coaching tool I built for my son's 11/12U baseball team. Imports GameChanger CSV exports, optimizes pitcher deployment with rest-day calculations and OPAA rule validation, and generates batting orders using youth-weighted formulas balancing OBP, contact rate, and speed.",
+      achievements: [
+        'Full OPAA rule validation (85 pitch daily max, 1–4 day rest by pitch count bracket)',
+        'Auto-grades pitchers (ACE / STARTER / RELIEVER) using strike%, K/BB, WHIP, GO/AO',
+        'One-click batting order optimizer with sandwich strategy and youth-weighted scoring',
+        'Imports and parses GameChanger CSV exports',
+      ],
+      github: null,
+      live: null,
+      status: 'Personal Project',
     },
   ]
 

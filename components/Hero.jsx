@@ -23,12 +23,12 @@ export default function Hero() {
 
         {/* Title */}
         <h2 className="text-xl md:text-2xl text-gray-400 mb-8 font-light">
-          Full-Stack Developer
+          Building infrastructure for AI agents
         </h2>
 
         {/* Bio */}
         <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-          Full-stack developer building AI × blockchain products. Former Zoom support engineer and community builder (2,500+ users).
+          On-chain LLM consensus (Verafy). A live market for AI compute (InferPrices). Trustless commerce in production (ShopReFit). 550+ Bitcoin Ordinals. Self-taught.
         </p>
 
         {/* CTA Buttons */}
