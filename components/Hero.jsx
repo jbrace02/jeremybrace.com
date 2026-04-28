@@ -28,7 +28,7 @@ export default function Hero() {
 
         {/* Bio */}
         <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
-          Founder building at the intersection of AI and blockchain.
+          Full-stack developer building AI × blockchain products. Former Zoom support engineer and community builder (2,500+ users).
         </p>
 
         {/* CTA Buttons */}

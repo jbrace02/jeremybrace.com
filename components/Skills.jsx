@@ -4,6 +4,7 @@ export default function Skills() {
     'React 19',
     'TypeScript',
     'AI/LLMs',
+    'Claude (Anthropic Certified)',
     'Eliza Agents',
     'Solana',
     'Bitcoin',

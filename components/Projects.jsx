@@ -9,6 +9,7 @@ export default function Projects() {
         'AI × Blockchain research lab and innovation platform. Built Swarm Explorer that queries 250+ LLMs simultaneously with AI consensus mechanism and on-chain verification. Integrated autonomous AI agents (Eliza framework) for community engagement across X and Telegram. Decentralized fact-checking with validator network, staking rewards, and transparent AI model performance tracking.',
       achievements: [
         'Integrated 250+ AI models (Claude, GPT, Gemini, Grok, etc.) for consensus',
+        'Built and managed community from 0 → 2,500 Telegram users as lead developer and community manager',
         'Deployed autonomous AI agents (Eliza) for social engagement on X and Telegram',
         'Built validator network with SOL-based credit system and staking',
         'Partnerships with Aerō, Paladin, Phase Labs, Jito, and DoubleZero',
